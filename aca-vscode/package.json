@@ -1,0 +1,30 @@
+
+{
+  "name": "aca-live-editor",
+  "displayName": "ACA Live Editor",
+  "description": "Live code generation integration for the ACA autonomous coding agent",
+  "version": "1.0.0",
+  "publisher": "aca",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "aca.startServer",
+        "title": "ACA: Start Live Editor Server"
+      },
+      {
+        "command": "aca.stopServer",
+        "title": "ACA: Stop Live Editor Server"
+      }
+    ]
+  }
+}

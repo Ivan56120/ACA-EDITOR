@@ -1,0 +1,16 @@
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local ACA state and logs
+agent.db
+agent.db-shm
+agent.db-wal
+stop.request
+logs/
+
+# Generated workspace databases
+workspace/*.db
+workspace/**/*.db
